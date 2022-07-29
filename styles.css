@@ -9,20 +9,29 @@ body {
 	-ms-transform: translateX(-50%) translateY(-50%);
 	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
 
 .horiz {
-	display: inline;
-	float: left;
 }
 
 #header h1  {
-	margin-left: 10%;
+	margin-left: 5%;
 }
 
-#main p {
-	margin-top: 20%;
-	margin-left: 10%;
+.top {
+	margin-top: 10%;
+}
+
+.bot {
+	align-items: bottom;
+}
+
+p {
+	margin-left: 5%;
 }
 
 ul {
@@ -32,8 +41,8 @@ ul {
 	flex-direction: row;
 	justify-content: flex-start;
 	flex-wrap: wrap;
-	margin-top: -5%;
-	margin-left: -3%;
+	margin-top: -4%;
+	margin-left: -1em;
 }
 
 li {
