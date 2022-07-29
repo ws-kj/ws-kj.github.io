@@ -32,6 +32,7 @@ ul {
 	list-style: none;
 	margin-left: -2em;
 	margin-top: -15px;
+	padding-top: 0;
 }
 
 li {
