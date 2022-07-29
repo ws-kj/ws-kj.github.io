@@ -27,15 +27,10 @@ td {
 ul {
 	text-decoration: none;
 	list-style: none;
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
-	flex-wrap: wrap;
-	margin-top: -4%;
-	margin-left: -1em;
 }
 
 li {
-	display: list-item;
+	display: inline;
+	float: left;
 	margin-right: 1em;
 }
