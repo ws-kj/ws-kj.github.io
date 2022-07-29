@@ -1,0 +1,42 @@
+body {
+	font-family: sans-serif;
+}
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.horiz {
+	display: inline;
+	float: left;
+}
+
+#header h1  {
+	margin-left: 10%;
+}
+
+#main p {
+	margin-top: 20%;
+	margin-left: 10%;
+}
+
+ul {
+	text-decoration: none;
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	margin-top: -5%;
+	margin-left: -3%;
+}
+
+li {
+	display: list-item;
+	margin-right: 1em;
+}
