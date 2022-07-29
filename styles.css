@@ -15,22 +15,12 @@ body {
 	align-items: center;
 }
 
-.horiz {
+table {
+	font-weight: normal;
 }
 
-#header h1  {
-	margin-left: 5%;
-}
-
-.top {
-	margin-top: 10%;
-}
-
-.bot {
-	align-items: bottom;
-}
-
-p {
+td {
+	display: block;
 	margin-left: 5%;
 }
 
