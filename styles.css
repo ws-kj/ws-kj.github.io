@@ -18,6 +18,17 @@ body {
 	width: 680px;
 }
 
+.quote {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 680px;
+	text-align: center;
+	-ms-transform: translateX(-50%);
+	-webkit-transform: translate(-50%, 0);
+	transform: translate(-50%, 0);
+}
+
 table {
 	font-weight: normal;
 }
